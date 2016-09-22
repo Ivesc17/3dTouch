@@ -2,6 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>desktop_game</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>最新游戏</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>desktop_game</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>desktop_application</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>最新应用</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>desktop_application</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>desktop_sweep</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>扫描二维码</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>desktop_sweep</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>desktop_search</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>搜索软件</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>desktop_search</string>
+		</dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

@@ -47,5 +47,28 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication *)application performActionForShortcutItem:(nonnull UIApplicationShortcutItem *)shortcutItem completionHandler:(nonnull void (^)(BOOL))completionHandler
+{
+    NSLog(@"touch shortcut item:%@",shortcutItem);
+    if ([shortcutItem.type isEqualToString:@"desktop_search"]) {
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"desktop_sweep"]) {
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"desktop_game"]) {
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"desktop_application"]) {
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"desktop_update"]) {
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"desktop_view_update"]) {
+        
+    }
+}
+
 
 @end

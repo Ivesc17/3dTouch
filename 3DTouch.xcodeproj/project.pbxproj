@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					B3BBF8A31D938605007DCF9E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JCBBBTY5HV;
 						ProvisioningStyle = Automatic;
 					};
 					B3BBF8BC1D938605007DCF9E = {
@@ -422,8 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JCBBBTY5HV;
 				INFOPLIST_FILE = 3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ives.-DTouch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,8 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JCBBBTY5HV;
 				INFOPLIST_FILE = 3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ives.-DTouch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
