@@ -15,6 +15,9 @@
 		B3BBF8B71D938605007DCF9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BBF8B51D938605007DCF9E /* LaunchScreen.storyboard */; };
 		B3BBF8C21D938605007DCF9E /* _DTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BBF8C11D938605007DCF9E /* _DTouchTests.m */; };
 		B3BBF8CD1D938605007DCF9E /* _DTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BBF8CC1D938605007DCF9E /* _DTouchUITests.m */; };
+		B3BBF8DC1D93ACD4007DCF9E /* ICDynamicShortCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BBF8DB1D93ACD4007DCF9E /* ICDynamicShortCutViewController.m */; };
+		B3BBF8DF1D93C813007DCF9E /* ICListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BBF8DE1D93C813007DCF9E /* ICListViewController.m */; };
+		B3BBF8E21D93C823007DCF9E /* ICDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BBF8E11D93C823007DCF9E /* ICDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B3BBF8C81D938605007DCF9E /* 3DTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BBF8CC1D938605007DCF9E /* _DTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchUITests.m; sourceTree = "<group>"; };
 		B3BBF8CE1D938605007DCF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BBF8DA1D93ACD4007DCF9E /* ICDynamicShortCutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICDynamicShortCutViewController.h; sourceTree = "<group>"; };
+		B3BBF8DB1D93ACD4007DCF9E /* ICDynamicShortCutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICDynamicShortCutViewController.m; sourceTree = "<group>"; };
+		B3BBF8DD1D93C813007DCF9E /* ICListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICListViewController.h; sourceTree = "<group>"; };
+		B3BBF8DE1D93C813007DCF9E /* ICListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICListViewController.m; sourceTree = "<group>"; };
+		B3BBF8E01D93C823007DCF9E /* ICDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICDetailViewController.h; sourceTree = "<group>"; };
+		B3BBF8E11D93C823007DCF9E /* ICDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,8 @@
 		B3BBF8A61D938605007DCF9E /* 3DTouch */ = {
 			isa = PBXGroup;
 			children = (
+				B3BBF8E41D93CCEE007DCF9E /* PeekAndPop */,
+				B3BBF8E31D93CCDF007DCF9E /* 动态标签 */,
 				B3BBF8AA1D938605007DCF9E /* AppDelegate.h */,
 				B3BBF8AB1D938605007DCF9E /* AppDelegate.m */,
 				B3BBF8AD1D938605007DCF9E /* ViewController.h */,
@@ -138,6 +149,26 @@
 				B3BBF8CE1D938605007DCF9E /* Info.plist */,
 			);
 			path = 3DTouchUITests;
+			sourceTree = "<group>";
+		};
+		B3BBF8E31D93CCDF007DCF9E /* 动态标签 */ = {
+			isa = PBXGroup;
+			children = (
+				B3BBF8DA1D93ACD4007DCF9E /* ICDynamicShortCutViewController.h */,
+				B3BBF8DB1D93ACD4007DCF9E /* ICDynamicShortCutViewController.m */,
+			);
+			name = "动态标签";
+			sourceTree = "<group>";
+		};
+		B3BBF8E41D93CCEE007DCF9E /* PeekAndPop */ = {
+			isa = PBXGroup;
+			children = (
+				B3BBF8DD1D93C813007DCF9E /* ICListViewController.h */,
+				B3BBF8DE1D93C813007DCF9E /* ICListViewController.m */,
+				B3BBF8E01D93C823007DCF9E /* ICDetailViewController.h */,
+				B3BBF8E11D93C823007DCF9E /* ICDetailViewController.m */,
+			);
+			name = PeekAndPop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BBF8DC1D93ACD4007DCF9E /* ICDynamicShortCutViewController.m in Sources */,
 				B3BBF8AF1D938605007DCF9E /* ViewController.m in Sources */,
 				B3BBF8AC1D938605007DCF9E /* AppDelegate.m in Sources */,
+				B3BBF8DF1D93C813007DCF9E /* ICListViewController.m in Sources */,
 				B3BBF8A91D938605007DCF9E /* main.m in Sources */,
+				B3BBF8E21D93C823007DCF9E /* ICDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

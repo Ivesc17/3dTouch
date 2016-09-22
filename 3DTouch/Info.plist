@@ -5,6 +5,8 @@
 	<key>UIApplicationShortcutItems</key>
 	<array>
 		<dict>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>最近来了个捕鱼达人</string>
 			<key>UIApplicationShortcutItemIconFile</key>
 			<string>desktop_game</string>
 			<key>UIApplicationShortcutItemTitle</key>
@@ -27,14 +29,6 @@
 			<string>扫描二维码</string>
 			<key>UIApplicationShortcutItemType</key>
 			<string>desktop_sweep</string>
-		</dict>
-		<dict>
-			<key>UIApplicationShortcutItemIconFile</key>
-			<string>desktop_search</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>搜索软件</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>desktop_search</string>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
